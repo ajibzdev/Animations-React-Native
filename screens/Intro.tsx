@@ -17,6 +17,12 @@ const Intro = ({ navigation, route }: any) => {
           navigation.navigate("PanGestureHandlerScreen");
         }}
       />
+      <Button
+        title="Interpolate With Scroll View"
+        onPress={() => {
+          navigation.navigate("InterpolateScrollScreen");
+        }}
+      />
     </View>
   );
 };

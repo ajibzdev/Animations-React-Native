@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Intro from "./screens/Intro";
 import AnimatedFunctions from "./screens/AnimatedFunctions";
 import PanGesutreHandler from "./screens/PanGesutreHandler";
+import InterpolateScroll from "./screens/InterpolateScroll";
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +25,11 @@ function App() {
         <Stack.Screen
           name="PanGestureHandlerScreen"
           component={PanGesutreHandler}
+        />
+
+        <Stack.Screen
+          name="InterpolateScrollScreen"
+          component={InterpolateScroll}
         />
       </Stack.Navigator>
     </NavigationContainer>
