@@ -23,6 +23,13 @@ const Intro = ({ navigation, route }: any) => {
           navigation.navigate("InterpolateScrollScreen");
         }}
       />
+
+      <Button
+        title="Layout Animation"
+        onPress={() => {
+          navigation.navigate("LayoutAnimationScreen");
+        }}
+      />
     </View>
   );
 };

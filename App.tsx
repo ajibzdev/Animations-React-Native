@@ -6,6 +6,7 @@ import Intro from "./screens/Intro";
 import AnimatedFunctions from "./screens/AnimatedFunctions";
 import PanGesutreHandler from "./screens/PanGesutreHandler";
 import InterpolateScroll from "./screens/InterpolateScroll";
+import LayoutAnimation from "./screens/LayoutAnimation";
 
 const Stack = createNativeStackNavigator();
 
@@ -30,6 +31,11 @@ function App() {
         <Stack.Screen
           name="InterpolateScrollScreen"
           component={InterpolateScroll}
+        />
+
+        <Stack.Screen
+          name="LayoutAnimationScreen"
+          component={LayoutAnimation}
         />
       </Stack.Navigator>
     </NavigationContainer>
